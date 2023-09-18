@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to right, rgb(245, 96, 121) ,rgb(71, 71, 241));
+}
+
+.container{
+    height: 400px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.timer{
+    margin: 10px;
+    padding: 20px;
+    font-size: 100px;
+}
+
+.start ,.stop ,.reset{
+    padding: 10px 15px ;
+    margin-left: 10px;
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+    background-color: inherit;
+
+}
+
+.start:hover ,.reset:hover ,.stop:hover{
+    box-shadow: 2px 3px 8px ;
+    color: white;
+}
